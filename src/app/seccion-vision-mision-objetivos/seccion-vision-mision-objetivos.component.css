@@ -1,0 +1,50 @@
+ /*seccion proposito*/
+
+ #propositos {
+    background: linear-gradient(to bottom right, #f7d9c4, #cfd2f2); /* Cambia los colores para el fondo degradado */
+    padding: 80px 0;
+  }
+  
+   #propositos h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  #propositos .card {
+    background: #fff; /* Cambia el color de fondo de las tarjetas */
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  #propositos .card img {
+    height: 200px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #propositos .card:hover img {
+    transform: scale(1.1);
+  }
+  
+  #propositos .card-body {
+    padding: 20px;
+  }
+  
+  #propositos .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Cambia el color del título */
+    font-weight: bold; /* Añade negrita al título */
+  }
+  
+  #propositos .card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Cambia el color del texto */
+    font-style: italic; /* Añade cursiva al texto */
+  }
+  
+  

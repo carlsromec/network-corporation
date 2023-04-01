@@ -1,0 +1,21 @@
+/*inicio menu*/
+.navbar-dark .navbar-nav .nav-link {
+    color: #020202;
+  }
+
+.navbar-nav a {
+    font-size: 18px; /* Aquí puedes ajustar el tamaño según tus preferencias */
+  }
+
+ 
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #52AFE6;
+    text-decoration: none;
+    border-bottom: 2px solid #52AFE6;
+  }
+
+  
+  .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid red;
+  }
